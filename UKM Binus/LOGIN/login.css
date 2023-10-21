@@ -1,0 +1,123 @@
+body {
+    background: linear-gradient(180deg, #000000 -7.08%, #000000 -7.07%, #2D2D2D 138.96%);
+    font-family: 'Alata';
+}
+
+.ukmlogo {
+    margin-left: 20px;
+    position: absolute;
+    top: 40px;
+    width: 200px;
+}
+
+.logobinus {
+    margin-right: 20px;
+    position: absolute;
+    width: 130px;
+    height: 83px;
+    right: 10px;
+    top: 10px;
+}
+
+.line {
+    position: absolute;
+    width: 99.3%;
+    top: 100px;
+}
+
+#kotak {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 550px;
+    margin: 10.5rem auto auto auto;
+    width: 400px;
+}
+
+#kotakContent {
+    padding: 10px 44px;
+}
+
+#kotaklogin {
+    font-size: large;
+    background-color: white;
+    letter-spacing: 2px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.formBorder {
+    background: black;
+    height: 1px;
+    width: 100%;
+}
+
+.formContent {
+    border: none;
+    outline: none;
+    padding-top: 10px;
+}
+
+#tombolSubmit {
+    font-weight: bold;
+    background: #353434;
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 3px black;
+    cursor: pointer;
+    color: white;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-left: 80px;
+    margin-top: 70px;
+    transition: 0.25s;
+    width: 153px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#test {
+    margin-top: 80px;
+}
+
+#tombolSubmit:hover{
+    background-color: black;
+}
+
+.textbox {
+    margin-top: 5%;
+}
+
+.checking{
+    padding-top: 5%;
+    display: flex;
+}
+
+.textbox-box p {
+    margin-top: 2px;
+    font-size: 11px;
+    color:rgb(253, 96, 96);
+    font-weight: bold;
+    visibility: hidden;
+    width: 200px;
+  }
+  
+  .error p {
+    visibility: visible;
+  }
+
+@media (max-width:800px) {
+    #kotak {
+        height: 570px;
+        width: 400px;
+    }
+}
